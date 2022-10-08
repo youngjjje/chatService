@@ -1,0 +1,66 @@
+2022-09-28 12:48:00.460[info] app start
+2022-09-28 12:48:00.586[info] DB connection success
+2022-09-28 12:48:00.602[info] Sequelize sync success
+2022-09-28 12:51:21.476[info] (user.list.params) {}
+2022-09-28 12:51:21.501[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 12:51:21.505[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 12:53:12.918[info] (user.reg.params) {"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111"}
+2022-09-28 12:53:12.924[debug] (userService.makePassword) "aa"
+2022-09-28 12:53:12.941[error] (userService.reg) SequelizeUniqueConstraintError: Validation error
+2022-09-28 12:53:49.301[info] (user.list.params) {}
+2022-09-28 12:53:49.315[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 12:53:49.318[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 12:58:22.630[info] app start
+2022-09-28 12:58:22.779[info] DB connection success
+2022-09-28 12:58:22.792[info] Sequelize sync success
+2022-09-28 13:00:58.345[info] app start
+2022-09-28 13:00:58.457[info] DB connection success
+2022-09-28 13:00:58.471[info] Sequelize sync success
+2022-09-28 13:08:18.906[info] (user.list.params) {}
+2022-09-28 13:08:18.931[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:08:18.937[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:12:17.512[info] (user.reg.params) {"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111"}
+2022-09-28 13:12:17.516[debug] (userService.makePassword) "bb"
+2022-09-28 13:12:17.534[debug] (userService.reg) {"id":3,"name":"bb","userid":"idbb","email":"bb@mail","phone":"010111","updatedAt":"2022-09-28T04:12:17.518Z","createdAt":"2022-09-28T04:12:17.518Z"}
+2022-09-28 13:12:17.538[info] (user.reg.result) {"id":3,"name":"bb","userid":"idbb","email":"bb@mail","phone":"010111","updatedAt":"2022-09-28T04:12:17.518Z","createdAt":"2022-09-28T04:12:17.518Z"}
+2022-09-28 13:12:21.865[info] (user.list.params) {}
+2022-09-28 13:12:21.872[debug] (userService.list) {"count":2,"rows":[{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:12:21.876[info] (user.list.result) {"count":2,"rows":[{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:13:40.356[info] (user.list.params) {}
+2022-09-28 13:13:40.369[debug] (userService.list) {"count":2,"rows":[{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:13:40.371[info] (user.list.result) {"count":2,"rows":[{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:15:14.338[info] app start
+2022-09-28 13:15:14.437[info] DB connection success
+2022-09-28 13:15:14.450[info] Sequelize sync success
+2022-09-28 13:17:07.234[info] app start
+2022-09-28 13:17:07.350[info] DB connection success
+2022-09-28 13:17:07.364[info] Sequelize sync success
+2022-09-28 13:17:17.979[info] (user.list.params) {}
+2022-09-28 13:17:18.001[debug] (userService.list) {"count":2,"rows":[{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:17:18.006[info] (user.list.result) {"count":2,"rows":[{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:18:03.302[info] (user.list.params) {}
+2022-09-28 13:18:03.315[debug] (userService.list) {"count":2,"rows":[{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:18:03.318[info] (user.list.result) {"count":2,"rows":[{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:18:15.757[info] (user.reg.params) {"name":"cc","userid":"idcc","password":"cc","email":"cc@mail","phone":"010111"}
+2022-09-28 13:18:15.762[debug] (userService.makePassword) "cc"
+2022-09-28 13:18:15.789[debug] (userService.reg) {"id":4,"name":"cc","userid":"idcc","email":"cc@mail","phone":"010111","updatedAt":"2022-09-28T04:18:15.766Z","createdAt":"2022-09-28T04:18:15.766Z"}
+2022-09-28 13:18:15.791[info] (user.reg.result) {"id":4,"name":"cc","userid":"idcc","email":"cc@mail","phone":"010111","updatedAt":"2022-09-28T04:18:15.766Z","createdAt":"2022-09-28T04:18:15.766Z"}
+2022-09-28 13:18:19.929[info] (user.list.params) {}
+2022-09-28 13:18:19.946[debug] (userService.list) {"count":3,"rows":[{"id":4,"name":"cc","userid":"idcc","password":"cc","email":"cc@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:18:15.000Z","updatedAt":"2022-09-28T04:18:15.000Z","deletedAt":null},{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:18:19.955[info] (user.list.result) {"count":3,"rows":[{"id":4,"name":"cc","userid":"idcc","password":"cc","email":"cc@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:18:15.000Z","updatedAt":"2022-09-28T04:18:15.000Z","deletedAt":null},{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:19:39.703[info] app start
+2022-09-28 13:19:39.826[info] DB connection success
+2022-09-28 13:19:39.841[info] Sequelize sync success
+2022-09-28 13:27:50.005[info] app start
+2022-09-28 13:27:50.109[info] DB connection success
+2022-09-28 13:27:50.121[info] Sequelize sync success
+2022-09-28 13:27:58.887[info] app start
+2022-09-28 13:27:59.002[info] DB connection success
+2022-09-28 13:27:59.014[info] Sequelize sync success
+2022-09-28 13:28:01.496[info] (user.list.params) {}
+2022-09-28 13:28:01.516[debug] (userService.list) {"count":3,"rows":[{"id":4,"name":"cc","userid":"idcc","password":"cc","email":"cc@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:18:15.000Z","updatedAt":"2022-09-28T04:18:15.000Z","deletedAt":null},{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:28:01.521[info] (user.list.result) {"count":3,"rows":[{"id":4,"name":"cc","userid":"idcc","password":"cc","email":"cc@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:18:15.000Z","updatedAt":"2022-09-28T04:18:15.000Z","deletedAt":null},{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:32:58.916[info] (user.list.params) {}
+2022-09-28 13:32:58.930[debug] (userService.list) {"count":3,"rows":[{"id":4,"name":"cc","userid":"idcc","password":"cc","email":"cc@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:18:15.000Z","updatedAt":"2022-09-28T04:18:15.000Z","deletedAt":null},{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:32:58.933[info] (user.list.result) {"count":3,"rows":[{"id":4,"name":"cc","userid":"idcc","password":"cc","email":"cc@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:18:15.000Z","updatedAt":"2022-09-28T04:18:15.000Z","deletedAt":null},{"id":3,"name":"bb","userid":"idbb","password":"bb","email":"bb@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-28T04:12:17.000Z","updatedAt":"2022-09-28T04:12:17.000Z","deletedAt":null},{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-28 13:34:30.076[info] (auth.token.params) {}

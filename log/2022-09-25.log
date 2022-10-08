@@ -1,0 +1,21 @@
+2022-09-25 00:35:29.795[info] (user.reg.params) {"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111"}
+2022-09-25 00:35:29.843[debug] (userService.reg) {"id":1,"name":"aa","userid":"idaa","email":"aa@mail","phone":"010111","updatedAt":"2022-09-24T15:35:29.802Z","createdAt":"2022-09-24T15:35:29.802Z"}
+2022-09-25 00:35:29.846[info] (user.reg.result) {"id":1,"name":"aa","userid":"idaa","email":"aa@mail","phone":"010111","updatedAt":"2022-09-24T15:35:29.802Z","createdAt":"2022-09-24T15:35:29.802Z"}
+2022-09-25 00:38:49.719[info] (user.list.params) {}
+2022-09-25 00:38:49.724[error] (userService.list) Error: Include unexpected. Element has to be either a Model, an Association or an object.
+2022-09-25 00:39:10.574[info] (user.list.params) {}
+2022-09-25 00:39:10.577[error] (userService.list) Error: Include unexpected. Element has to be either a Model, an Association or an object.
+2022-09-25 00:39:31.117[info] (user.list.params) {}
+2022-09-25 00:39:31.120[error] (userService.list) Error: Include unexpected. Element has to be either a Model, an Association or an object.
+2022-09-25 00:39:38.633[info] (user.list.params) {}
+2022-09-25 00:39:38.635[error] (userService.list) Error: Include unexpected. Element has to be either a Model, an Association or an object.
+2022-09-25 00:45:56.697[info] (user.list.params) {}
+2022-09-25 00:45:56.700[error] (userService.list) Error: Include unexpected. Element has to be either a Model, an Association or an object.
+2022-09-25 00:46:02.226[info] (user.list.params) {}
+2022-09-25 00:46:02.229[error] (userService.list) Error: Include unexpected. Element has to be either a Model, an Association or an object.
+2022-09-25 00:46:48.702[info] (user.list.params) {}
+2022-09-25 00:46:48.705[error] (userService.list) Error: Include unexpected. Element has to be either a Model, an Association or an object.
+2022-09-25 00:46:51.730[info] (user.list.params) {}
+2022-09-25 00:46:51.733[error] (userService.list) Error: Include unexpected. Element has to be either a Model, an Association or an object.
+2022-09-25 00:47:21.557[info] (user.list.params) {}
+2022-09-25 00:47:21.564[error] (userService.list) Error: Include unexpected. Element has to be either a Model, an Association or an object.

@@ -1,0 +1,24 @@
+2022-09-27 19:01:47.804[info] app start
+2022-09-27 19:01:48.240[info] DB connection success
+2022-09-27 19:01:48.261[info] Sequelize sync success
+2022-09-27 19:01:51.889[info] (user.list.params) {}
+2022-09-27 19:01:51.908[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-27 19:01:51.912[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-27 19:04:05.852[info] (user.list.params) {}
+2022-09-27 19:04:05.866[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-27 19:04:05.868[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-27 19:04:21.819[info] (user.list.params) {}
+2022-09-27 19:04:21.842[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-27 19:04:21.844[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-27 19:08:22.594[info] (user.list.params) {}
+2022-09-27 19:08:22.607[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-27 19:08:22.609[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-27 19:08:26.316[info] (user.list.params) {}
+2022-09-27 19:08:26.323[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-27 19:08:26.326[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-27 19:08:40.506[info] app start
+2022-09-27 19:08:40.629[info] DB connection success
+2022-09-27 19:08:40.647[info] Sequelize sync success
+2022-09-27 19:08:41.645[info] (user.list.params) {}
+2022-09-27 19:08:41.664[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
+2022-09-27 19:08:41.667[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"aa","userid":"idaa","password":"aa","email":"aa@mail","phone":"010111","updatedPwDate":null,"createdAt":"2022-09-24T15:35:29.000Z","updatedAt":"2022-09-24T15:35:29.000Z","deletedAt":null}]}
